@@ -1,3 +1,26 @@
 html{
-  font-family: 'Merriweather', serif;;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+h1{
+  background-color: #cd5b34;
+  color: white;
+}
+
+nav ol{
+  list-style-type: none;
+}
+body{
+  margin: 0em;
+  padding: 0em;
+}
+h1{
+  margin: 0em;
+}
+div{
+  background-color: #d98156;
 }
