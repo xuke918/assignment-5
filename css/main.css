@@ -34,6 +34,7 @@ header{
 h1{
   margin: 0 0 0.4em;
   font-size: 4em;
+
 }
 
 nav{
@@ -96,6 +97,12 @@ figure{
   margin: 0em;
 }
 
+figcaption{
+  color: white;
+  font-style: italic;
+
+}
+
 
 
 
@@ -108,4 +115,6 @@ div{
 
 .footer{
   background-color: #cd5b34;
+  color: #d98156;
+  text-align: center;
 }
