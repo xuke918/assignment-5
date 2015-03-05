@@ -15,6 +15,7 @@ body{
 h1, h2{
   color: white;
   font-family: 'Merriweather', serif;
+  text-align: center;
 }
 
 .f{
@@ -90,16 +91,33 @@ figcaption{
   margin-right: 1em;
 }
 
+.img2{
+  width: 280px;
+  height: auto;
+  float: right;
+}
+.img3{
+  width: 280px;
+  float: right;
+}
 
 
 
+
+
+
+.p1{
+  clear: right;
+}
+.p2{
+  clear: left;
+}
 
 
 div{
   background-color: #d98156;
-
-
 }
+
 
 dt{
   font-weight: bold;
