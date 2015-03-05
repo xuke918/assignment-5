@@ -16,6 +16,7 @@ h1, h2{
   color: white;
   font-family: 'Merriweather', serif;
   text-align: center;
+
 }
 
 .f{
@@ -39,7 +40,7 @@ h1{
 }
 
 nav{
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 nav ol{
@@ -51,7 +52,7 @@ nav ol{
 
 nav li{
   display: inline-block;
-  padding: 1em 3em 0em 3em;
+  padding: 1em 1em 0em 1em;
 }
 
 nav a{
@@ -67,10 +68,7 @@ nav a:hover{
   color: #fff;
 }
 
-main{
-  padding: 0 10px;
-  margin: 1em 0em 0em 0em;
-}
+
 
 
 
@@ -84,40 +82,71 @@ figcaption{
   font-style: italic;
 
 }
+
+.left{
+  float: left;
+  width: 3em;
+
+}
+
+.right{
+  float: right;
+  width: 3em;
+
+}
+
 .img1{
-  width: 280px;
+  width: 180px;
   height: auto;
   float: left;
   margin-right: 1em;
+  padding: 0 10px;
 }
 
 .img2{
-  width: 280px;
+  width: 180px;
   height: auto;
   float: right;
+  padding: 0 10px;
 }
+
 .img3{
-  width: 280px;
+  width: 180px;
+  height: auto;
   float: right;
+  clear: both;
+  padding: 0 10px;
 }
 
+.img4{
+  width: 100%;
+}
 
+.img5{
+  width: 50%;
+}
 
+.img6{
+  width: 50%;
+}
 
 
 
 .p1{
   clear: right;
+  padding: 0 10px;
+
 }
 .p2{
   clear: left;
+  padding: 0 10px;
 }
 
 
 div{
   background-color: #d98156;
-}
 
+}
 
 dt{
   font-weight: bold;
@@ -133,9 +162,9 @@ dd{
   font-style: italic;
 }
 
-.footer{
+footer{
   background-color: #cd5b34;
   color: #d98156;
   text-align: center;
-  padding: 1em;
+  padding: 0em;
 }
