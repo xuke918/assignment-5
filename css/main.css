@@ -75,13 +75,9 @@ main{
   float: left;
   margin-right: 1em;
   margin-bottom: 1em;
+
 }
 
-.grains{
-  float: left;
-  margin-right: 1em;
-  margin-bottom: 1em;
-}
 .grain{
   margin-top: 0em;
 }
@@ -91,6 +87,10 @@ main{
 }
 .quinoa{
   float: right;
+}
+
+.second-p{
+  clear: left;
 }
 
 figure{
@@ -113,8 +113,23 @@ div{
   background-color: #d98156;
 }
 
+dt{
+  font-weight: bold;
+  font-style: italic;
+  float: left;
+  clear: left;
+
+}
+
+dd{
+  margin: 0em;
+  float: left;
+  font-style: italic;
+}
+
 .footer{
   background-color: #cd5b34;
   color: #d98156;
   text-align: center;
+  padding: 1em;
 }
