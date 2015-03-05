@@ -72,28 +72,7 @@ main{
 }
 
 
-.grains{
-  float: left;
-  margin-right: 1em;
-  margin-bottom: 1em;
 
-
-}
-
-.grain{
-  margin-top: 0em;
-}
-.cereals{
-  float: right;
-  clear: right;
-}
-.quinoa{
-  float: right;
-}
-
-.second-p{
-  clear: left;
-}
 
 figure{
   margin: 0em;
@@ -104,7 +83,12 @@ figcaption{
   font-style: italic;
 
 }
-
+.img1{
+  width: 280px;
+  height: auto;
+  float: left;
+  margin-right: 1em;
+}
 
 
 
@@ -113,6 +97,8 @@ figcaption{
 
 div{
   background-color: #d98156;
+
+
 }
 
 dt{
