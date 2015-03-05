@@ -33,23 +33,24 @@ header{
 
 h1{
   margin: 0 0 0.4em;
-  font-size: 4em;
+  font-size: 2em;
 
 }
 
 nav{
-  font-size: 2em;
+  font-size: 1em;
 }
 
 nav ol{
   margin: 0em;
   padding: 0em;
   list-style-type: none;
+
 }
 
 nav li{
   display: inline-block;
-  padding: 1em 5em 0em 4em;
+  padding: 1em 3em 0em 3em;
 }
 
 nav a{
@@ -75,6 +76,7 @@ main{
   float: left;
   margin-right: 1em;
   margin-bottom: 1em;
+
 
 }
 
