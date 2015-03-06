@@ -25,7 +25,7 @@ body{
 
 h1{
   margin: 0em 0em 0.2em;
-  font-size: 2.5em;
+  font-size: 3em;
   padding: 0.2em 0em 0em 0em;
   color: white;
   font-family: 'Merriweather', serif;
@@ -33,15 +33,21 @@ h1{
 }
 
 h2{
-  font-size: 1.5em;
-  padding-top: 1em;
+  font-size: 2em;
+  margin: 0em;
+  padding: 1em;
   color: white;
   text-align: center;
+  background-color: #dc8252;
 }
 
 
 h3 {
+  font-size: 2em;
   color: black;
+  text-align: center;
+  margin: 0em;
+  padding: 1em 0em 1em 0em;
 }
 
 
@@ -57,20 +63,19 @@ nav ol{
 }
 
 nav li{
-  display: block;
+  display: inline-block;
   border: 1px solid #a93f35;
-  float: left;
-  width: 33.33%;
-  margin: 0em;
+
+
 }
 
 nav a{
   display: inline-block;
-
   color: white;
   text-decoration: none;
   background-color: #cd5b34;
-  padding: 0em;
+
+
 }
 
 nav a:hover{
@@ -79,9 +84,15 @@ nav a:hover{
 }
 
 
+div{
+  clear: both;
+  overflow: hidden;
+}
 
 figure{
   margin: 0em;
+  background-color: #dc8252;
+
 }
 
 figcaption{
@@ -91,14 +102,14 @@ figcaption{
 
 .left{
   float: left;
-  width: 20%;
+  width: 15%;
   padding: 10px;
 
 }
 
 .right{
   float: right;
-  width: 20%;
+  width: 15%;
   padding: 10px;
 }
 
@@ -126,6 +137,7 @@ figcaption{
 
 .img4{
   width: 100%;
+
 }
 
 .img5{
@@ -137,41 +149,72 @@ figcaption{
   width: 50%;
   float: right;
 }
+
+.corn{
+  width: 100%;
+  text-align: center;
+  background-color: #dc8252;
+  padding: 0em 0em 1em 0em;
+}
+
 .rice{
-   clear: both;
+   width: 50%;
+
    float: left;
+   background-color: #dc8252;
+   text-align: center;
+   padding: 0em 0em 1em 0em;
  }
 
 .oats{
-   clear: both;
+   text-align: center;
+   width: 50%;
+   background-color: #dc8252;
+   padding: 0em 0em 1em 0em;
    float: right;
+
  }
 
-.corn{
-  text-align: center;
-}
+
 
 .img7{
-  width: 25%;
   float: left;
-  clear: both;
+  width: 25%;
+
 }
+
+.img8{
+  float: left;
+  width: 25%;
+}
+
+.img9{
+  float: left;
+  width: 25%;
+}
+
+
 
 .p1{
   clear: right;
   padding: 0 10px;
-  font-size: 1.125em;
+  font-size: 2em;
+
 }
+
 .p2{
   clear: left;
   padding: 0 10px;
-  font-size: 1.125em;
+  font-size: 2em;
 }
 
 
-div{
-  background-color: #d98156;
-  padding: 0em 0em 12em 0em;
+
+
+dl{
+  clear: both;
+  margin: 0em;
+
 }
 
 dt{
@@ -194,6 +237,6 @@ footer{
   background-color: #cd5b34;
   color: #d98156;
   text-align: center;
-  padding: 0em;
-  margin: 0.5 0 0.5 0em;
+  padding: 0em 0em 2em 0em;
+  margin: 0em;
 }
