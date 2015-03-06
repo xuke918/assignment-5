@@ -33,7 +33,7 @@ h1{
 }
 
 h2{
-  font-size: 2em;
+  font-size: 1.6em;
   margin: 0em;
   padding: 1em;
   color: white;
@@ -43,7 +43,7 @@ h2{
 
 
 h3 {
-  font-size: 2em;
+  font-size: 1.6em;
   color: black;
   text-align: center;
   margin: 0em;
@@ -63,14 +63,15 @@ nav ol{
 }
 
 nav li{
-  display: inline-block;
+  float: left;
+  width: 33.33%;
   border: 1px solid #a93f35;
 
 
 }
 
 nav a{
-  display: inline-block;
+  display: block;
   color: white;
   text-decoration: none;
   background-color: #cd5b34;
@@ -175,22 +176,32 @@ figcaption{
 
  }
 
-
+.im{
+background-color: white;
+overflow: hidden;
+padding: 1em;
+}
 
 .img7{
   float: left;
   width: 25%;
+  border: 1px solid #ccc;
+  clear: both;
 
 }
 
 .img8{
   float: left;
   width: 25%;
+  border: 1px solid #ccc;
+  clear: both;
 }
 
 .img9{
   float: left;
   width: 25%;
+  clear: both;
+  border: 1px solid #ccc;
 }
 
 
@@ -198,45 +209,26 @@ figcaption{
 .p1{
   clear: right;
   padding: 0 10px;
-  font-size: 2em;
+
 
 }
 
 .p2{
   clear: left;
   padding: 0 10px;
-  font-size: 2em;
-}
-
-
-
-
-dl{
-  clear: both;
-  margin: 0em;
 
 }
 
-dt{
-  font-weight: bold;
-  font-style: italic;
-  float: left;
-  clear: left;
-  font-size: 0.8em;
-}
 
-dd{
-  margin: 0em;
-  float: right;
-  font-style: italic;
-  display: block;
-  font-size: 0.8em;
-}
+
+
+
 
 footer{
   background-color: #cd5b34;
   color: #d98156;
   text-align: center;
-  padding: 0em 0em 2em 0em;
+  padding: 1em 0em 1em 0em;
   margin: 0em;
+  clear: both;
 }
