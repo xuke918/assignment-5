@@ -7,69 +7,76 @@ html{
   box-sizing: inherit;
 }
 
-body{
-  margin: 0em;
-  padding: 0em;
-}
-
-h1, h2{
-  color: white;
-  font-family: 'Merriweather', serif;
-  text-align: center;
-
-}
-
-.f{
-  color: black;
-}
-
-
 header{
-  padding: 0 0 0.4em;
-
+  padding: 0em;
+  overflow: hidden;
   background-color: #cd5b34;
 
   text-align: center;
 }
 
 
-h1{
-  margin: 0 0 0.4em;
-  font-size: 2em;
-
+body{
+  margin: 0em;
+  padding: 0em;
 }
 
-nav{
-  font-size: 1.2em;
+
+
+h1{
+  margin: 0em 0em 0.2em;
+  font-size: 2.5em;
+  padding: 0.2em 0em 0em 0em;
+  color: white;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h2{
+  font-size: 1.5em;
+  padding-top: 1em;
+  color: white;
+  text-align: center;
+}
+
+
+h3 {
+  color: black;
+}
+
+
+nav {
+  text-align: center;
 }
 
 nav ol{
   margin: 0em;
   padding: 0em;
   list-style-type: none;
-
+  text-align: center;
 }
 
 nav li{
-  display: inline-block;
-  padding: 1em 1em 0em 1em;
+  display: block;
+  border: 1px solid #a93f35;
+  float: left;
+  width: 33.33%;
+  margin: 0em;
 }
 
 nav a{
   display: inline-block;
-  padding: 0.2em 0.5em 0.3em;
+
   color: white;
   text-decoration: none;
   background-color: #cd5b34;
+  padding: 0em;
 }
 
 nav a:hover{
   background-color: #a93f35;
   color: #fff;
 }
-
-
-
 
 
 
@@ -80,23 +87,23 @@ figure{
 figcaption{
   color: white;
   font-style: italic;
-
 }
 
 .left{
   float: left;
-  width: 3em;
+  width: 20%;
+  padding: 10px;
 
 }
 
 .right{
   float: right;
-  width: 3em;
-
+  width: 20%;
+  padding: 10px;
 }
 
 .img1{
-  width: 180px;
+  width: 45%;
   height: auto;
   float: left;
   margin-right: 1em;
@@ -104,18 +111,17 @@ figcaption{
 }
 
 .img2{
-  width: 180px;
+  width: 40%;
   height: auto;
   float: right;
-  padding: 0 10px;
 }
 
 .img3{
-  width: 180px;
+  width: 40%;
   height: auto;
   float: right;
   clear: both;
-  padding: 0 10px;
+  border: 1px solid #ccc;
 }
 
 .img4{
@@ -124,28 +130,48 @@ figcaption{
 
 .img5{
   width: 50%;
+  float: left;
 }
 
 .img6{
   width: 50%;
+  float: right;
+}
+.rice{
+   clear: both;
+   float: left;
+ }
+
+.oats{
+   clear: both;
+   float: right;
+ }
+
+.corn{
+  text-align: center;
 }
 
-
+.img7{
+  width: 25%;
+  float: left;
+  clear: both;
+}
 
 .p1{
   clear: right;
   padding: 0 10px;
-
+  font-size: 1.125em;
 }
 .p2{
   clear: left;
   padding: 0 10px;
+  font-size: 1.125em;
 }
 
 
 div{
   background-color: #d98156;
-
+  padding: 0em 0em 12em 0em;
 }
 
 dt{
@@ -153,13 +179,15 @@ dt{
   font-style: italic;
   float: left;
   clear: left;
-
+  font-size: 0.8em;
 }
 
 dd{
   margin: 0em;
-  float: left;
+  float: right;
   font-style: italic;
+  display: block;
+  font-size: 0.8em;
 }
 
 footer{
@@ -167,4 +195,5 @@ footer{
   color: #d98156;
   text-align: center;
   padding: 0em;
+  margin: 0.5 0 0.5 0em;
 }
